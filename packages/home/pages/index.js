@@ -3,7 +3,7 @@ import Head from 'next/head';
 
 import styled from 'styled-components';
 
-import { Button } from '@stereo/core/lib/components';
+import { Button } from '@stereo/core';
 
 import Header from "~/components/Header";
 
@@ -23,7 +23,7 @@ const Home = () => (
     <Header />
     <Title>Home page</Title>
     <Subtitle>A simple message</Subtitle>
-    {/* <Button>GRoSA</Button> */}
+    <Button>First Button</Button>
   </>
 )
 

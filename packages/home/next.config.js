@@ -1,6 +1,5 @@
-const path = require('path')
-const withTranspileModules = require('next-plugin-transpile-modules');
+const withTM = require('next-transpile-modules');
 
-module.exports = withTranspileModules({
+module.exports = withTM({
   transpileModules: ['@stereo']
 })
