@@ -3,9 +3,8 @@ import Head from 'next/head';
 
 import styled from 'styled-components';
 
-import { Button } from '@stereo/core';
-
-import Header from '~/components/Header';
+import { Button, Header } from '@stereo/core';
+import GlobalStyle from '~/styles/global';
 
 const Title = styled.h1`
   color: #069;
@@ -24,6 +23,7 @@ const Home = () => (
     <Title>Home page</Title>
     <Subtitle>A simple message</Subtitle>
     <Button>First Button</Button>
+    <GlobalStyle />
   </>
 );
 
