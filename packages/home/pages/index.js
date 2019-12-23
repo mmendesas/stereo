@@ -5,6 +5,8 @@ import styled from 'styled-components';
 
 // import { Button } from '@stereo/components';
 
+import Header from "~/components/Header";
+
 const Title = styled.h1`
   color: #069;
   font-size: 40px;
@@ -18,6 +20,7 @@ const Home = () => (
     <Head>
       <title>Home</title>
     </Head>
+    <Header />
     <Title>Home page</Title>
     <Subtitle>A simple message</Subtitle>
     {/* <Button>GRoSA</Button> */}
