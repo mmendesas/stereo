@@ -3,6 +3,7 @@ module.exports = {
     browser: true,
     es6: true,
     node: true,
+    jest: true
   },
   extends: [
     'plugin:react/recommended',
@@ -28,6 +29,15 @@ module.exports = {
   rules: {
     'prettier/prettier': 'error',
     'react/jsx-filename-extension': ['warn', { extensions: ['.jsx', '.js'] }],
-    'import/prefer-default-export': 'off'
+    'import/prefer-default-export': 'off',
+    "react/jsx-props-no-spreading": 'off',
   },
+  settings: {
+    "import/resolver": {
+      "babel-plugin-root-import": {
+        "rootPathSuffix": "src",
+        "rootPathPrefix": "~"
+      }
+    }
+  }
 };
