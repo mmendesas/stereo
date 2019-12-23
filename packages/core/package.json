@@ -5,11 +5,16 @@
   "module": "src/index.js",
   "license": "MIT",
   "dependencies": {
+    "@storybook/react": "^5.2.8",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "styled-components": "^4.4.1"
   },
   "scripts": {
     "build": "babel --root-mode upward src -d lib --ignore **/*.story.js,**/*.spec.js"
+  },
+  "devDependencies": {
+    "jest-styled-components": "^6.3.4",
+    "react-test-renderer": "^16.12.0"
   }
 }

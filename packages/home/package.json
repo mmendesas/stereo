@@ -5,6 +5,7 @@
   "license": "MIT",
   "dependencies": {
     "@stereo/core": "*",
+    "@storybook/react": "^5.2.8",
     "axios": "^0.19.0",
     "babel-plugin-root-import": "^6.4.1",
     "next": "^9.1.6",

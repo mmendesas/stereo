@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 
 export const Container = styled.div`
   background: #0aa;
@@ -8,4 +8,4 @@ export const Container = styled.div`
 
   display: flex;
   align-items: center;
-`
+`;

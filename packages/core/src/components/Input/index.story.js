@@ -1,7 +1,6 @@
 import React from 'react';
-import { storiesOf } from '@storybook/react'
+import { storiesOf } from '@storybook/react';
 
-import Input from '.'
+import Input from '.';
 
-storiesOf('Input', module)
-  .add('default', () => <Input placeholder="grosa!" />);
+storiesOf('Input', module).add('default', () => <Input placeholder="grosa!" />);

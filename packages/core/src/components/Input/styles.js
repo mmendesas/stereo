@@ -8,4 +8,4 @@ export const Container = styled.input`
   font-weight: 300;
   padding: 10px 40px 10px 10px;
   width: 150px;
-`
+`;
