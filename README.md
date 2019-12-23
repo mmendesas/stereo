@@ -34,6 +34,10 @@ In the project directory, you can see the follow structure:
 - Inside the `home` ssr app, you can run one of the [nextjs](https://nextjs.org/docs) methods:
   - `yarn dev` - start a dev-server with hot-reloading
 
+## Tips and Tricks
+
+- `yarn add --dev -W package` - Use this command inside `/stereo` to install package in workspace. After that you only need to add it in your `package` dependency.
+
 ## Built With
 
 - 🐉 [Lerna](https://lernajs.io/)  - The Monorepo manager
