@@ -3,12 +3,16 @@ import PropTypes from 'prop-types';
 
 import { Container } from './styles';
 
-function Button({ children }) {
-  return <Container>{children}</Container>;
+function Button({ secondary, loading, children, ...props }) {
+  return (
+    <Container secondary={secondary} loading={loading} {...props}>
+      {loading ? <div>Loading...</div> : children}
+    </Container>
+  );
 }
 
 Button.propTypes = {
-  children: PropTypes.element.isRequired,
+  children: PropTypes.any.isRequired,
 };
 
-export default Button;
+export { Button };

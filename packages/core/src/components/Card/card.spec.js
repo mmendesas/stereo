@@ -2,11 +2,11 @@ import React from 'react';
 import renderer from 'react-test-renderer';
 import 'jest-styled-components';
 
-import Input from '.';
+import { Card } from '.';
 
-describe('Input', () => {
+describe('Components | Card', () => {
   test('renders correctly', () => {
-    const tree = renderer.create(<Input />).toJSON();
+    const tree = renderer.create(<Card>Card</Card>).toJSON();
     expect(tree).toMatchSnapshot();
   });
 });

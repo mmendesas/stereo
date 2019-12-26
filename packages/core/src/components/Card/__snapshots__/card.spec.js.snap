@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components | Card renders correctly 1`] = `
+.c0 {
+  width: 300px;
+  padding: 10px;
+  margin: 15px;
+  box-shadow: 0 5px 15px -5px rgba(0,0,0,1);
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.c0:hover {
+  box-shadow: 0 10px 30px -10px rgba(0,0,0,1);
+}
+
+<div
+  className="c0"
+>
+  Card
+</div>
+`;

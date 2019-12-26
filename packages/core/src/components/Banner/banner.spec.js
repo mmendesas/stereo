@@ -2,11 +2,11 @@ import React from 'react';
 import renderer from 'react-test-renderer';
 import 'jest-styled-components';
 
-import Button from '.';
+import { Banner } from '.';
 
-describe('Button', () => {
+describe('Component | Banner', () => {
   test('renders correctly', () => {
-    const tree = renderer.create(<Button>Test</Button>).toJSON();
+    const tree = renderer.create(<Banner>Banner</Banner>).toJSON();
     expect(tree).toMatchSnapshot();
   });
 });

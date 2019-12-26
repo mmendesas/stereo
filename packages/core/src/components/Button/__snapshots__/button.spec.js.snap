@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button renders correctly 1`] = `
+.c0 {
+  cursor: pointer;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  background-color: #0a3;
+  color: #fff;
+  padding: 10px 15px;
+  font-size: 16px;
+  border: 2px solid #0a3;
+  height: 40px;
+}
+
+.c0:hover {
+  opacity: 0.9;
+}
+
+<button
+  className="c0"
+>
+  First Button
+</button>
+`;
